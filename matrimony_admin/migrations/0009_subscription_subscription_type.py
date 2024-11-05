@@ -2,13 +2,21 @@
 
 from django.db import migrations, models
 
+class Migration(migrations.Migration):
 
+<<<<<<< HEAD
 class Migration(migrations.Migration):
 
     dependencies = [
         ('matrimony_admin', '0008_alter_subscriptioninfo_sub'),
     ]
 
+=======
+    dependencies = [
+        ('matrimony_admin', '0008_alter_subscriptioninfo_sub'),
+    ]
+
+>>>>>>> 0cdf81f663f0df0e788faae3aa37b9393d4447fd
     operations = [
         migrations.AddField(
             model_name='subscription',
